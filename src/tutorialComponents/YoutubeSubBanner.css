@@ -1,0 +1,38 @@
+.sub-banner{
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    background-color: lightgrey;
+    margin-bottom: 20pt;
+}
+
+.sub-banner img{
+    width: 50pt;
+    height: 50pt;
+    margin-right: 5%;
+}
+
+.sub-banner h1{
+    flex:1;
+    margin: 0;
+}
+
+.sub-banner button{
+    margin-right: 3%;
+    border-radius: 5pt;
+    border: none;
+    height: 40pt;
+    padding-left: 15pt;
+    padding-right: 15pt;
+    font-size: large;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.subscribed{
+    background-color: rgb(255, 44, 44);
+}
+
+.subscribe{
+    background-color: grey;
+}
